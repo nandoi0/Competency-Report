@@ -1,0 +1,129 @@
+/*Global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Lato', sans-serif;
+}
+h1,h2,h3{
+    text-align: center;
+    padding: 10px 0;
+}
+
+p{ 
+    line-height: 2;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*utilities*/
+.bold-text{
+    font-weight: 700;
+}
+
+.container{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*header*/
+
+
+
+
+.header-title {
+    background-color: #ebf0f3;
+    height: 250px;
+}
+
+.header-title h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 8px;
+}
+
+
+.header-title h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+
+.header-title p{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    ;
+}
+
+nav {
+
+    background-color: rgb(69, 76, 83);
+    text-align: center;
+    
+
+}
+
+nav a{
+    color: whitesmoke;
+    margin-right: 30px;
+    letter-spacing: 3px;
+}
+
+nav a:hover {
+
+    font-weight: 700;
+    opacity: 1.0;
+}
+/*main*/
+
+.my-photo{
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 8px solid rgb(69, 76, 83)
+}
+/*bio*/
+
+ul li {
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+ol li {
+    font-size: 10px;
+    margin: 40px;
+}
+
+
+
+
+.cont-info {
+    text-align: center;
+}
+
+main {
+    background-color: rgb(252, 252, 252);
+}
+
+
+
+.smedia {
+    text-align: center;
+}
+
+.hobby-list {
+    margin-left: 25%;
+}
